@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# next.js build output
+.next/
+out/
+build/
+next-env.d.ts
+.turbo/
+
+# vercel
+.vercel
+
+# env — never commit
+.env
+.env.*
+!.env.example
+
+# neon CLI local state
+.neon
+.neon.backup*
+
+# admin uploads
+/storage
+/.preview
+
+# logs / os junk
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# typescript
+*.tsbuildinfo
